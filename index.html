@@ -1,14 +1,68 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <title>Наш сайт</title>
+
+<style>
+   body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+   }
+     header {
+      height: 70px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 40px;
+      background-color:black;
+     }
+       
+     main {
+      text-align: center;
+      padding: 100px;
+      flex: 1;
+     }
+     button {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      border: none;
+      background-color:maroon;
+      font-size: 20px;
+      cursor: pointer;
+     }
+
+     footer {
+      text-align: center;
+      padding: 20px;
+      background-color:darkred;
+     }
+</style>
 </head>
+
 <body>
-     <header>
-        <img src="logo.png" width="100">
-     </header>
-     <main>
-        <h1>София Бундина и Аблиева Рената</h1>
-     </main>
+
+   <header>
+      <img src="logo.webp" width="100">
+
+      <nav>
+         <a href="#">Главная</a>
+         <a href="#">О нас</a>
+         <a href="#">Меню</a>
+      </nav>
+   </header>
+
+   <main>
+      <h1>Бундина София и Аблиева Рената</h1>
+
+      <button>Кнопка</button>
+   </main>
+
+   <footer>
+      <img src="logo.webp" width="70">
+      <p>2026</p>
+   </footer>
 </body>
 </html>
